@@ -1,0 +1,719 @@
+{
+	"id": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+	"name": "KFC",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "@DashboardConformity",
+			"description": "",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"order": [
+				"7e4cf985-29f8-17fc-396c-768ccfef5822",
+				"2bd12f5a-3e97-774e-2f7c-5bdd008bf9b4",
+				"62c97cd5-af23-0baa-327a-be530c40a7fa",
+				"98420130-dc82-2638-8ae8-eb9bd5e12ebb"
+			],
+			"owner": "3389180",
+			"folders_order": [],
+			"id": "85d0ddbf-b7c7-120c-0363-ac9e28613893"
+		},
+		{
+			"name": "@DashboardsAvailability",
+			"description": "",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"order": [
+				"db82ca96-a357-1185-73e6-c923143b0fd2",
+				"c82c167a-e5b2-1cc6-9287-c13dfdc3dc97",
+				"78d31fff-576f-1dbb-f545-280b596484cb",
+				"be6c0c05-3282-9a9e-3c42-9a3a6517c61e"
+			],
+			"owner": "3389180",
+			"folders_order": [],
+			"id": "e74f8f6f-e55f-097a-00df-d50873be53fa"
+		},
+		{
+			"name": "DataAccordanceCreate",
+			"description": "Testing an accordance between newly created issue and responses' issue description\n\nPrevious variables:\n@Dashboard \n@IssueName \n@IssueDescContent \n\t\t\t\t\t \nPreEvaluation Steps:\n1)Open @Dashboard\n2)Create new issue with @IssueName\n3)Fill issue description with @IssueDescContent\n\nEvaluation Steps:\n1)Creating an request in KFSapi with @Dashboard and @IssueDescContent\n",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"order": [
+				"9e23b924-b105-4eee-216f-55b22e543934",
+				"bcafa1c6-4e22-c500-a7d2-efb0e84bb3f6",
+				"e6845e5a-ec5a-5ad1-1e27-35d89dc6e576",
+				"bb2a7b2f-8397-85cb-99ce-9ee37b82ca11"
+			],
+			"owner": "3389180",
+			"folder": "244ff054-8f12-046c-1cb7-6c03c16dc6a6",
+			"folders_order": [],
+			"id": "2f0f21fd-3de7-bbf1-17e8-9362f7bc35c3"
+		},
+		{
+			"name": "DataAccordanceUpdate",
+			"description": "",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"order": [
+				"308cbe73-4782-fef5-1c6d-76d7d00ebe16",
+				"af2ddfa3-3aec-ad5d-19ad-4ef87577edf6",
+				"fd166688-3ae6-7372-0cf7-e9b62cf2b3d5",
+				"fedc2b61-d0b7-19a5-f2e6-d022ae24c3aa"
+			],
+			"owner": "3389180",
+			"folder": "244ff054-8f12-046c-1cb7-6c03c16dc6a6",
+			"folders_order": [],
+			"id": "fd0d9c76-585c-226c-c48b-18be5169ceef"
+		},
+		{
+			"name": "Manual",
+			"description": "",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"order": [],
+			"owner": "3389180",
+			"folders_order": [
+				"2f0f21fd-3de7-bbf1-17e8-9362f7bc35c3",
+				"fd0d9c76-585c-226c-c48b-18be5169ceef"
+			],
+			"id": "244ff054-8f12-046c-1cb7-6c03c16dc6a6"
+		}
+	],
+	"folders_order": [
+		"e74f8f6f-e55f-097a-00df-d50873be53fa",
+		"85d0ddbf-b7c7-120c-0363-ac9e28613893",
+		"244ff054-8f12-046c-1cb7-6c03c16dc6a6"
+	],
+	"timestamp": 1514153284500,
+	"owner": "3389180",
+	"public": false,
+	"requests": [
+		{
+			"id": "2bd12f5a-3e97-774e-2f7c-5bdd008bf9b4",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"data": null,
+			"dataMode": "params",
+			"name": "MantisConformity",
+			"description": "Testing a positive response from a launced @Dashboard",
+			"descriptionFormat": "html",
+			"time": 1514153410156,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "2bd12f5a-3e97-774e-2f7c-5bdd008bf9b4",
+			"folder": "85d0ddbf-b7c7-120c-0363-ac9e28613893"
+		},
+		{
+			"id": "308cbe73-4782-fef5-1c6d-76d7d00ebe16",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"folder": "fd0d9c76-585c-226c-c48b-18be5169ceef",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "type",
+					"value": "update",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "dashboard",
+					"value": "github",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "issueName",
+					"value": "TEST11",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "issueDescContent",
+					"value": "111111111111122222222222223333333333333qqqqqqqqqqe2131232131233333123133aaaada",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1514161288859,
+			"name": "githubAccordance",
+			"description": "Testing a positive response from a launced @Dashboard",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"responses": []
+		},
+		{
+			"id": "62c97cd5-af23-0baa-327a-be530c40a7fa",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"data": null,
+			"dataMode": "params",
+			"name": "TrellosConformity",
+			"description": "Testing a positive response from a launced @Dashboard",
+			"descriptionFormat": "html",
+			"time": 1514153410156,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "62c97cd5-af23-0baa-327a-be530c40a7fa",
+			"folder": "85d0ddbf-b7c7-120c-0363-ac9e28613893"
+		},
+		{
+			"id": "78d31fff-576f-1dbb-f545-280b596484cb",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"data": null,
+			"dataMode": "params",
+			"name": "TrellosAvailability",
+			"description": "Testing a positive response from a launced @Dashboard",
+			"descriptionFormat": "html",
+			"time": 1514153410156,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "78d31fff-576f-1dbb-f545-280b596484cb",
+			"folder": "e74f8f6f-e55f-097a-00df-d50873be53fa"
+		},
+		{
+			"id": "7e4cf985-29f8-17fc-396c-768ccfef5822",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"data": null,
+			"dataMode": "params",
+			"name": "JirasConformity",
+			"description": "Testing a positive response from a launced @Dashboard",
+			"descriptionFormat": "html",
+			"time": 1514153410156,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "7e4cf985-29f8-17fc-396c-768ccfef5822",
+			"folder": "85d0ddbf-b7c7-120c-0363-ac9e28613893"
+		},
+		{
+			"id": "98420130-dc82-2638-8ae8-eb9bd5e12ebb",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"data": null,
+			"dataMode": "params",
+			"name": "githubConformity",
+			"description": "Testing a positive response from a launced @Dashboard",
+			"descriptionFormat": "html",
+			"time": 1514153410156,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "98420130-dc82-2638-8ae8-eb9bd5e12ebb",
+			"folder": "85d0ddbf-b7c7-120c-0363-ac9e28613893"
+		},
+		{
+			"id": "9e23b924-b105-4eee-216f-55b22e543934",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "KFCproject.com/post",
+			"folder": "2f0f21fd-3de7-bbf1-17e8-9362f7bc35c3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "type",
+					"value": "create",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "dashboard",
+					"value": "github",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "issueName",
+					"value": "TEST1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "issueDescContent",
+					"value": "111111111111122222222222223333333333333qqqqqqqqqqe2131232131233333123133aaaada",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "var responseJSON, error;\nvar result = \"Fall\";\nvar dashboard = \"github\";\nvar issueName = \"TEST1\";\nvar issueDescCont =  \"111111111111122222222222223333333333333qqqqqqqqqqe2131232131233333123133aaaada\";\n\ntry { \n    responseJSON = JSON.parse(responseBody); \n    tests['response is valid JSON'] = true;\n}\ncatch (e) { \n    responseJSON = {}; \n    tests['response is valid JSON'] = false;\n}\n\nif(tests['response is valid JSON']){\n    if( _.has(responseJSON, 'dashboard') && responceJSON.dashboard === dashboard ) {\n         if( _.has(responseJSON, 'issueName') && responceJSON.issueName === issueName ) {\n             if( _.has(responseJSON, 'issueDescCont') && responceJSON.issueDescCont === issueDescCont ) {\n                result = \"Pass\";\n            }\n            else error = \"Out of field with the description of the issue\";\n        }\n        else error = \"Out of field with the name of the issue\";\n    }\n    else error = \"Out of field with the dashboard name\";\n}\nelse error = \"There are problems with the responce\";\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1514161127542,
+			"name": "githubAccordance",
+			"description": "Testing a positive response from a launced @Dashboard",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"responses": []
+		},
+		{
+			"id": "af2ddfa3-3aec-ad5d-19ad-4ef87577edf6",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"folder": "fd0d9c76-585c-226c-c48b-18be5169ceef",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "type",
+					"value": "update",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "dashboard",
+					"value": "JIRA",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "issueName",
+					"value": "TEST12",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "issueDescContent",
+					"value": "111111111111122222222222223333333333333qqqqqqqqqqe2131232131233333123133aaaada",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1514161302228,
+			"name": "JirasAccordance",
+			"description": "Testing a positive response from a launced @Dashboard",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"responses": []
+		},
+		{
+			"id": "bb2a7b2f-8397-85cb-99ce-9ee37b82ca11",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"folder": "2f0f21fd-3de7-bbf1-17e8-9362f7bc35c3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "type",
+					"value": "create",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "dashboard",
+					"value": "Trello",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "issueName",
+					"value": "TEST4",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "issueDescContent",
+					"value": "111111111111122222222222223333333333333qqqqqqqqqqe2131232131233333123133aaaada",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "var responseJSON, error;\nvar result = \"Fall\";\nvar dashboard = \"Trello\";\nvar issueName = \"TEST41\";\nvar issueDescCont =  \"111111111111122222222222223333333333333qqqqqqqqqqe2131232131233333123133aaaada\";\n\ntry { \n    responseJSON = JSON.parse(responseBody); \n    tests['response is valid JSON'] = true;\n}\ncatch (e) { \n    responseJSON = {}; \n    tests['response is valid JSON'] = false;\n}\n\nif(tests['response is valid JSON']){\n    if( _.has(responseJSON, 'dashboard') && responceJSON.dashboard === dashboard ) {\n         if( _.has(responseJSON, 'issueName') && responceJSON.issueName === issueName ) {\n             if( _.has(responseJSON, 'issueDescCont') && responceJSON.issueDescCont === issueDescCont ) {\n                result = \"Pass\";\n            }\n            else error = \"Out of field with the description of the issue\";\n        }\n        else error = \"Out of field with the name of the issue\";\n    }\n    else error = \"Out of field with the dashboard name\";\n}\nelse error = \"There are problems with the responce\";\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1514161267575,
+			"name": "TrellosAccordance",
+			"description": "Variables:\n@Dashboard = \"Trello\"\n@IssueName = \"TEST4\"\n@IssueDescContent = \"1111111111111\n\t\t\t\t\t 2222222222222\n\t\t\t\t\t 3333333333333\n\t\t\t\t\t qqqqqqqqqqe21\n\t\t\t\t\t 3123213123333\n\t\t\t\t\t 3123133aaaada\"",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"responses": []
+		},
+		{
+			"id": "bcafa1c6-4e22-c500-a7d2-efb0e84bb3f6",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"folder": "2f0f21fd-3de7-bbf1-17e8-9362f7bc35c3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "type",
+					"value": "create",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "dashboard",
+					"value": "JIRA",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "issueName",
+					"value": "TEST2",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "issueDescContent",
+					"value": "111111111111122222222222223333333333333qqqqqqqqqqe2131232131233333123133aaaada",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "var responseJSON, error;\nvar result = \"Fall\";\nvar dashboard = \"JIRA\";\nvar issueName = \"TEST2\";\nvar issueDescCont =  \"111111111111122222222222223333333333333qqqqqqqqqqe2131232131233333123133aaaada\";\n\ntry { \n    responseJSON = JSON.parse(responseBody); \n    tests['response is valid JSON'] = true;\n}\ncatch (e) { \n    responseJSON = {}; \n    tests['response is valid JSON'] = false;\n}\n\nif(tests['response is valid JSON']){\n    if( _.has(responseJSON, 'dashboard') && responceJSON.dashboard === dashboard ) {\n         if( _.has(responseJSON, 'issueName') && responceJSON.issueName === issueName ) {\n             if( _.has(responseJSON, 'issueDescCont') && responceJSON.issueDescCont === issueDescCont ) {\n                result = \"Pass\";\n            }\n            else error = \"Out of field with the description of the issue\";\n        }\n        else error = \"Out of field with the name of the issue\";\n    }\n    else error = \"Out of field with the dashboard name\";\n}\nelse error = \"There are problems with the responce\";\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1514161240123,
+			"name": "JirasAccordance",
+			"description": "Variables:\n@Dashboard = \"JIRA\"\n@IssueName = \"TEST2\"\n@IssueDescContent = \"1111111111111\n\t\t\t\t\t 2222222222222\n\t\t\t\t\t 3333333333333\n\t\t\t\t\t qqqqqqqqqqe21\n\t\t\t\t\t 3123213123333\n\t\t\t\t\t 3123133aaaada\"",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"responses": []
+		},
+		{
+			"id": "be6c0c05-3282-9a9e-3c42-9a3a6517c61e",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"data": null,
+			"dataMode": "params",
+			"name": "githubAvailability",
+			"description": "Testing a positive response from a launced @Dashboard",
+			"descriptionFormat": "html",
+			"time": 1514153410156,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "c82c167a-e5b2-1cc6-9287-c13dfdc3dc97",
+			"folder": "e74f8f6f-e55f-097a-00df-d50873be53fa"
+		},
+		{
+			"id": "c82c167a-e5b2-1cc6-9287-c13dfdc3dc97",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"data": null,
+			"dataMode": "params",
+			"name": "MantisAvailability",
+			"description": "Testing a positive response from a launced @Dashboard",
+			"descriptionFormat": "html",
+			"time": 1514153410156,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "c82c167a-e5b2-1cc6-9287-c13dfdc3dc97",
+			"folder": "e74f8f6f-e55f-097a-00df-d50873be53fa"
+		},
+		{
+			"id": "db82ca96-a357-1185-73e6-c923143b0fd2",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"data": null,
+			"dataMode": "params",
+			"name": "JirasAvailability",
+			"description": "Testing a positive response from a launced @Dashboard",
+			"descriptionFormat": "html",
+			"time": 1514153410156,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "c82c167a-e5b2-1cc6-9287-c13dfdc3dc97",
+			"folder": "e74f8f6f-e55f-097a-00df-d50873be53fa"
+		},
+		{
+			"id": "e6845e5a-ec5a-5ad1-1e27-35d89dc6e576",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"folder": "2f0f21fd-3de7-bbf1-17e8-9362f7bc35c3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "type",
+					"value": "create",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "dashboard",
+					"value": "Mantis",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "issueName",
+					"value": "TEST3",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "issueDescContent",
+					"value": "111111111111122222222222223333333333333qqqqqqqqqqe2131232131233333123133aaaada",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "var responseJSON, error;\nvar result = \"Fall\";\nvar dashboard = \"Mantis\";\nvar issueName = \"TEST3\";\nvar issueDescCont =  \"111111111111122222222222223333333333333qqqqqqqqqqe2131232131233333123133aaaada\";\n\ntry { \n    responseJSON = JSON.parse(responseBody); \n    tests['response is valid JSON'] = true;\n}\ncatch (e) { \n    responseJSON = {}; \n    tests['response is valid JSON'] = false;\n}\n\nif(tests['response is valid JSON']){\n    if( _.has(responseJSON, 'dashboard') && responceJSON.dashboard === dashboard ) {\n         if( _.has(responseJSON, 'issueName') && responceJSON.issueName === issueName ) {\n             if( _.has(responseJSON, 'issueDescCont') && responceJSON.issueDescCont === issueDescCont ) {\n                result = \"Pass\";\n            }\n            else error = \"Out of field with the description of the issue\";\n        }\n        else error = \"Out of field with the name of the issue\";\n    }\n    else error = \"Out of field with the dashboard name\";\n}\nelse error = \"There are problems with the responce\";\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1514161255945,
+			"name": "MantisAccordance",
+			"description": "Variables:\n@Dashboard = \"Mantis\"\n@IssueName = \"TEST3\"\n@IssueDescContent = \"1111111111111\n\t\t\t\t\t 2222222222222\n\t\t\t\t\t 3333333333333\n\t\t\t\t\t qqqqqqqqqqe21\n\t\t\t\t\t 3123213123333\n\t\t\t\t\t 3123133aaaada\"",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"responses": []
+		},
+		{
+			"id": "fd166688-3ae6-7372-0cf7-e9b62cf2b3d5",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"folder": "fd0d9c76-585c-226c-c48b-18be5169ceef",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "type",
+					"value": "update",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "dashboard",
+					"value": "Mantis",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "issueName",
+					"value": "TEST13",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "issueDescContent",
+					"value": "111111111111122222222222223333333333333qqqqqqqqqqe2131232131233333123133aaaada",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1514161316387,
+			"name": "MantisAccordance",
+			"description": "Testing a positive response from a launced @Dashboard",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"responses": []
+		},
+		{
+			"id": "fedc2b61-d0b7-19a5-f2e6-d022ae24c3aa",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"folder": "fd0d9c76-585c-226c-c48b-18be5169ceef",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "type",
+					"value": "update",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "dashboard",
+					"value": "Trello",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "issueName",
+					"value": "TEST14",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "CurrentIssueDescContent",
+					"value": "111111111111122222222222223333333333333qqqqqqqqqqe2131232131233333123133aaaada",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1514161354810,
+			"name": "TrellosAccordance",
+			"description": "Testing a positive response from a launced @Dashboard",
+			"collectionId": "8d3a63fa-5e2d-1772-d189-4befd2a5e13f",
+			"responses": []
+		}
+	]
+}
